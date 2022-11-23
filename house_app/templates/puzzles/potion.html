@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>You look down at the bottle you've set on the counter.</h3>
+        {% if recipe and ingredients %}
+        <h3>You have everything you need to make the potion as listed on the recipe you found in the drawer.</h3>
+        <h3>It's time to perform some <a href="/make-potion">alchemy</a>.</h3>
+        {% elif recipe %}
+        <h3>You have a recipe that you're trying to follow, but not all of the ingredients.</h3>
+        {% elif ingredients %}
+        <h3>You have the potion making materials, but you're not sure how to make it all come together.</h3>
+        {% else %}
+        <h3>You have absolutely no idea what you're doing.</h3>
+        {% endif %}
+        <a href="/kitchen">Go Back</a>
+
+    </main>
+    
+</body>
+</html>

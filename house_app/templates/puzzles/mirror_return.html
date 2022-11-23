@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        {% if solved %}
+        <h3>The pieces fit together perfectly into the shape of a small hand mirror.</h3>
+
+        {% else %}
+        <h3>The pieces don't quite fit together.</h3>
+        {% endif %}
+        
+        <h3><a href="/ds-bath">Back to the downstairs bathroom</a>.</h3>
+            
+            
+            
+    </main>
+    
+</body>
+</html>

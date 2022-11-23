@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downstairs Hallway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+.nameCard{
+    font-family: garamond;
+}
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>The flooring continues through the hall, rippling as if from water damage. A grandfather clock sits motionless against the wall, stuck to 10:20.</h3>
+        <h3>An austere portrait hangs near the clock, a man sitting in a chair with his left hand sitting on a globe. The man is wearing a formal suit, tie, jacket, and slacks all black. It seems old fashioned. The polish on the man's equally dark shoes glints.</h3>
+        <h3>A plaque beneath the painting reads:</h3>
+        <h1 class="nameCard">Ebenezer Vermillion, born 1843.</h1>
+        <h3>There's a closed <a href="/dsh-cabinet">cabinet</a> on the wall opposite.</h3>
+        <h3>Three doors lead off the hallway.</h3>
+
+        {% if door %}
+        <h3>One to the <a href="/ds-bath">left</a>, one to the <a href="/kitchen">right</a>, and one at the <a href="/basement">end</a>, which you've unlocked.</h3>
+        {% else %}
+        <h3>One to the <a href="/ds-bath">left</a>, one to the <a href="/kitchen">right</a>, and one at the <a href="/bm-door">end</a>.</h3>
+        {% endif %}
+        <h3>You can also go back to the <a href="/entry">entry</a>.</h3>
+    </main>
+    
+</body>
+</html>

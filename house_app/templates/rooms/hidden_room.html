@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Room</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>The space behind the wall is haunting. The only light is that which shines in from the bedroom. On the floor, there's a red chalk pentagram, covered with dust and long untouched.</h3>
+        <h3>The walls and ceiling are all black, so dark as to steal the light away and even suck the air from your lungs.</h3>
+        <h3>You're scared.</h3>
+        <h3>In the middle of the circle rests a curled, tan piece of <a href="/add-item/11">parchment</a>.</h3>
+        {% if book %}
+        <h3>Now that you've found the book, you can attempt the <a href="/ritual">ritual</a>.</h3>
+        {% endif %}
+        <h3>Nothing else exists in this claustrophobic space. You want to get out of here and back to the <a href="/bedroom">bedroom</a>.</h3>
+    </main>
+    
+</body>
+</html>

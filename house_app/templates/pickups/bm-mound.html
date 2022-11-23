@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        {% if boots %}
+        <h3>With the boots on, you trudge through the sticky viscera that's accumulated on the floor. You focus every part of yourself just to get to the other side. When you do, the mound shifts again, shortly followed by a moan.
+            Before you can think better of it, you push aside the rotting meat. What you find makes you stumble back. Beneath the corpses of numerous rats, your mom lays in a coma-like state. You grab her arms and pull her free of the slime.</h3>
+            
+        <h3>It takes a while for the ambulance to arrive after you carry her outside. But it finally comes, and with it one of the best phrases you've ever heard: "She's alive."
+            A wave of relief washes over you, and with it a newfound determination to find out what the hell is going on. You turn, and with confident steps, go <a href="/entry">back inside</a>.</h3>
+        
+        {% else %}
+        <h3>Your first step is accompanied by a terrible sizzling noise, that is shortly followed by an immense pain in your foot. The bloody ooze on the floor is quickly eating away at your shoes.
+            Reflexively, you pull it back. You can't cross the basement like this, you'll have to find something else to wear.</h3>
+        <a href="/basement">Go Back</a>
+
+        {% endif %}
+   
+    </main>
+    
+</body>
+</html>

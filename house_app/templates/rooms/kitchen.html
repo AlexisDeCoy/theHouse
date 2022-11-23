@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>The appliances in the kitchen are so old it puts the term antique to shame. A woodfire stove covers the majority of one wall, so deeply caked in ash as to have texture. 
+            What presumably qualifies as the refrigerator is nothing more than a double-lined chest. A brass lamp hangs from the ceiling, unburning.</h3>
+        <h3>Atop the center counter sits a haphazard combination of <a href="/k-utensils">cooking utensils</a>, likely also due to the beginning attempts at the move-in process. 
+            Most of the cabinets are open, displaying a variety of plates and glassware that seem both luxurious and dusty.</h3>
+        <h3>However, there is a small set of <a href="/k-drawers">drawers</a> to the left of the stove that appear long unopened.</h3>
+        {% if bottle %}
+        <h3>Since you've picked up a potion bottle, you could try and <a href="/potion">make something</a>.</h3>
+        {% endif %}
+        <h3>A door across the room leads <a href="/greenhouse">elsewhere</a> in the house.</h3>
+        <h3>You can also return to the <a href="/ds-hallway">hallway</a>.</h3>
+    </main>
+    
+</body>
+</html>

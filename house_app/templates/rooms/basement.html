@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>The stairs leading down to the basement skreech loudly with each of your steps. The darkness surrounds you completely, the only thing that keeps you on track is a rickety railing to the right.</h3>
+        <h3>When you reach the bottom of the steps, the first thing that hits you is an overwhelming stench of rot. It swirls in your nostrils and makes your eyes water.
+            You have to resist the urge to vomit. The next thing you feel is an intense humidity. The surface of your skin feels wet and vile, as if the miasma of the room is permiating your pores.</h3>
+            
+        {% if lighter %}
+        <!-- ALTWITHLIGHTER -->
+        <h3>With the lighter in hand, you venture forward a couple steps. You stumble back again in horror. The room is soaked in red, the walls dripping wet and hot.
+            On the floor are heaping mounds of viscera, half eaten rodents spilling their insides into an unholy knot. Despite the carnage, it sounds like some are still alive. </h3>
+        <h3>Pained, tiny squeals reverberate through the small space, adding more to the sickening feeling inside you.
+            Across the room, one of the <a href="/bm-mound">mounds</a> is moving grotesquely, as if it has coagulated into some greater kind of abomination.</h3>
+
+        {% else %}
+        <h3>You can't see a thing.</h3>
+        {% endif %}
+        
+        <h3>There's nothing you'd rather do than go back <a href="/ds-hallway">upstairs</a>.</h3>
+            
+            
+            
+    </main>
+    
+</body>
+</html>

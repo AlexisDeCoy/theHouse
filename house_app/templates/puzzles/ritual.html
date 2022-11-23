@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+
+        {% if materials %}
+        <h3>Smoke fills the air as the candles burn in the musty space. The world outside seems to blur. You do your best to speak the words listed on page 231 of The Book.
+            For a moment after, nothing seems to happen. The absolute silence from the forest has crawled its way inside.</h3>
+        <h3>Just when you're ready to put down the book and leave this cursed house for good, the floor begins to shake violently. The candles flicker angrily, and every piece of wood seems to groan all at once.
+            The cacophany of sound swallows you whole, you can't even think.</h3>
+        <h3>You have no idea how long it lasts, but finally it begins to subside. You collapse to your knees, feeling as though all your energy has been sapped away. Before you have a chance to question what the hell happened,
+            another sound gets your attention. You look up. From the shadowy corners of the room, a shape emerges. As it approaches, it becomes clearer.</h3>
+        <h3>The snow white cat sits, head tilted slightly in curiosity. Something is familiar about those piercing <a href="/ending">orange eyes</a>.</h3>
+        {% else %}
+        <h3>You don't have everything mentioned in the book. You still need to find some. You remember that the book has a list of the items you need.</h3>
+        <a href="/hidden-room">Go Back</a>
+        {% endif %}
+    </main>
+    
+</body>
+</html>

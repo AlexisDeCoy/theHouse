@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downstairs Hallway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>You rattle the door handle, but it refuses to turn. On it, there's a keyhole.</h3>
+        
+        {% if keyring %}
+        <h3>If they're in sequential order, there's 135 keys on the ring you found in the backyard. Do you want to try one?</h3>
+        <form action="/door-open" method="POST">
+            <label for="">Key Number:</label><br><br>
+            <input type="number" name="key_number"><br><br>
+            <input type="submit">
+        </form>
+
+        {% else %}
+        <h3>You don't have any keys with you.</h3>
+
+        {% endif %}
+        <br>
+        <a href="/ds-hallway">Go Back</a>
+
+    </main>
+    
+</body>
+</html>

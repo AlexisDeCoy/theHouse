@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#topSpacer{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+
+<body>
+    <div id="topSpacer">
+        <a href="/inventory">Inventory</a><br>
+        <a href="/logout">Log Out</a>
+    </div>
+    <main>
+        <h3>A large four poster bed takes up a majority of the room, complimented by two nightstands on each side of the headboard. A few items rest on the stands, but nothing catches your eye.</h3>
+        <h3>There are no linens on the bed, so you can see the lumpy, misshapen mattress. The outer cover is stained an upsetting shade of yellow, and a few holes spill feathers onto the floor.</h3>
+        <h3>Clearly, this piece had not yet been replaced by your mom. </h3>
+        <h3>On another wall is a wardrobe, taller than you and the same rich brown you've seen on furniture all across the house. One of the doors is partially <a href="/br-open">open</a>.</h3>
+        <h3>A <a href="/br-clock">clock</a> hangs next to it, missing the glass that normally would cover the hands. It ticks ominously.</h3>
+        <h3>From here, you can go back to the <a href="/us-hallway">upstairs hallway</a>.</h3>
+    
+        {% if clock %}
+        <h3>There's also the hole in the wall where a panel used to be. Through it is a <a href="/hidden-room">hidden room</a>.</h3>
+        {% endif %}
+    
+    </main>
+    
+</body>
+</html>

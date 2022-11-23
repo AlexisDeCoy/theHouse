@@ -1,0 +1,392 @@
+TODO:
+***basement locked
+***boots for basement
+***make potion
+-fix mirror
+-perform ritual
+
+
+Items w/ IDs:
+Trowel, 1
+Candles, 2
+Keys, 3
+Lighter, 4
+Knife, 5
+Ladle, 6
+Boots, 7
+Coat, 8
+Scarf, 9
+Mom Note, 10
+Day Log, 11
+Book, 12
+Cat Note, 13
+Potion Bottle, 14
+Potion, 15
+Mirror Fragments, 16
+Catnip, 17
+Milkweed, 18
+Nightshade, 19
+Wolfsbane, 20
+Wormwood, 21
+Potion recipe, 22
+Fixed mirror, 23
+
+Story Overview
+Carnivorous cat house.
+
+Intro:
+1.
+Life in the city is not fulfilling.
+People keep passing you by, only going so far as to consider you an obstacle to avoid.
+Therapy has been helping... a little. At least there you feel like a person. But there's no one else to talk to. 
+The mere idea of going out with friends begets so many challenges you can't help but laugh.
+It still hurts.
+You don't even know who to ask, let alone where to go with them. Besides, what do you talk about?
+You're basically a ghost.
+
+2.
+
+"How's your relationship with your family?"
+
+"My mom moved recently, in the woods somewhere. Maybe Maine or something like that?"
+
+"It seems odd that you don't know more, doesn't it?"
+
+"Yeah... I guess. But I haven't heard from her in over a month now. I feel like that's an answer in itself."
+
+"Perhaps not. After all, difficulties come up for everyone. She might even need some help."
+
+"..."
+
+"I thought she was ignoring me."
+
+"Maybe this is the opportunity you need. Why don't you go and visit? She's your mom, after all.
+Although this may be difficult to hear, there isn't much you'll be leaving behind, especially if it's just a short trip."
+
+"I'm pretty sure she emailed me the listing for the house. I'll see if I can find it."
+
+3.
+
+The house was surprisingly difficult to find. Even among the locals, almost no one had even heard of the road on the listing.
+Google wasn't any help either. It dropped a red pin in the middle of a forest; there weren't any roads to speak of.
+Driving up the street for what must have been the 20th time, you took a chance on a small, dilapidated corner store.
+The shelves were mismatched, more of them than not a clapboard combination of what could only be described as construction leftovers.
+On those shelves were all manner of things, from canned goods to souveniers. From long since passed liscensed mac-and-cheese to animal bones.
+It made you pretty uncomfortable.
+The owner sat behind a former bar. Any upkeep to the dark, stained wood had long since been abandoned. His eyes were red and beady behind a bristled and dull grey beard.
+It seemed to take over his face.
+
+"Do you think you could help me with directions? I'm new here."
+
+"You gonna buy something?"
+
+4.
+
+You look at the nearest shelf and grab the first thing you see. A can of chili. You surrepticiously look at the expiry, trying not to draw the attention of the
+man behind the counter. November 21, 2003. You put it on the counter. 
+$1.25
+You hope, rather desperately, that's enough for some information. There's nothing else here that you need, or want, or even think qualifies as usable in the slightest.
+
+"Where are you trying to go?"
+
+You look down at your phone, thankful that your purchase was sufficient. You're even more thankful he resumed the conversation where you left it. 
+The skulls look down on you with judgement. 
+
+"Vermillion Road. No one seems to know it."
+
+The owner huffed, a confusing mix of laugh, exasperation, and something else.
+
+"Figures. It goes to a house. No one lives there."
+
+"My mom just moved in. I'm going to help her unpack."
+
+"Right, sure. Follow this road here out of town until you leave town.
+There's a stack of rocks on the right, maybe a couple miles out. Turn right behind the rocks and follow it 'til you see the house."
+
+"That's it?"
+
+"Yep. Good luck."
+
+5.
+
+Even knowing where you're going, finding the road was difficult. You found the rocks, and just beyond were two overgrown ruts in the dirt.
+Had you not been looking, it would've been nearly invisible. It wound through a densly packed forest. You must've been on the road for half an hour.
+Finally though, there was a clearing. A house sits in the middle, the roof warped and paint peeling.
+Shutters hang loosely from the windows, some clinging on with a single hinge. One even sat atop the small overhang above the front door. 
+You can't even tell what color the house was supposed to be. The paint that remained has been bleached so thoroughly by the sun that it had become a colorless grey.
+
+You get out of the car.
+
+The grass crunches dryly beneath your feet. Despite the green of the surrounding trees, everything feels somehow lifeless. There's no other noise to speak of.
+No birds, no wind, no cars. The last can be explained away, but the overall impression leaves you off-balance. The house looms before you, beckoning. 
+It doesn't seem like a place your mom would've chosen, but you can't hold a discount against her. The wood-slat stairs groan, resistant of your every step.
+You knock for a minute, listening closely for any signs of life. Nothing comes of it.
+The doorknob likely once gleamed, but the golden metal now looks pocked and brown. It reminds you of dried blood. The handle is rough beneath your fingers.
+
+It's unlocked.
+
+
+
+Goals
+1. Find Mom
+2. Get to the Basement
+3. Perform the Exorcism
+
+Rooms
+
+Main Floor 
+Entry
+Rich, dark wood seems to comprise the entire room. On the floor, there are a number of places where the stain has worn thin.
+At some point, this house must've been beautiful. But now, like the exterior, everything seems to have been left alone for too long.
+The banisters leading upstairs are ornately carved. Atop the main posts sit two lions, observing what has been and will be.
+A stack of moving boxes sit near the door. Sharpie scrawled on the sides serve as evidence that someone has been here recently. 
+The stairs lead upwards in front of you. To the left, a gloomy hallway leads off into darkness. On the right, there's another door (dining room). 
+
+Hallway
+The flooring continues through the hall, rippling as if from water damage. A grandfather clock sits motionless against the wall, stuck to 10:20.
+An austere portrait hangs near the clock, a man sitting in a chair with his left hand sitting on a globe.
+The man is wearing a formal suit, tie, jacket, and slacks all black. It seems old fashioned. The polish on the man's equally dark shoes glints.
+A plaque beneath the painting reads:
+Ebenezer Vermillion, born 1843.
+Three doors lead off the hallway, one to the left (bathroom), one to the right (kitchen), and one at the end (basement). You can also go back to the entry.
+
+//Cabinet
+-glassware cabinet (potion bottle)
+
+Downstairs Bath
+A mirror reflects you, hanging on the wall in the front of the room. The borders are faded, blurring the light into obscurity. 
+The surrounding silver frame is heavily tarnished. An off-white basin sink sits on top of a small cabinet, faucet dripping slowly. 
+The water leaking from the spout has a brackish, vaguely brown tint. The cabinet has two doors with rusted knobs and water stains run all down the front.
+The only way out of the room is back into the hall.
+
+//Cabinet
+-broken mirror in the cabinet
+
+Dining Room
+A large table dominates the room, stained dark like all the other wooden furnishings throughout the house. A faded red cloth runner spans the middle of the table.
+Six chairs sit around it, only one pulled out at an odd angle. Someone sat here alone, but you don't know when. A cardboard box sits open next to the chair. 
+You can't say for sure, but it was probably your mom unpacking.
+ In the middle of the table sits a grouping of candles, somewhat used with fat globs of wax dripping down their sides.
+Beyond the table, there's a glass inlaid door through which you can see rich green leaves. It seems to lead outside. You can also return to the entry.
+-candles
+-door to backyard
+
+Kitchen
+The appliances in the kitchen are so old it puts the term antique to shame. A woodfire stove covers the majority of one wall, so deeply caked in ash as to have texture. 
+What presumably qualifies as the refrigerator is nothing more than a double-lined chest. A brass lamp hangs from the ceiling, unburning.
+Atop the center counter sits a haphazard combination of cooking utensils, likely also due to the beginning attempts at the move-in process. 
+Most of the cabinets are open, displaying a variety of plates and glassware that seem both luxurious and dusty.
+However, there is a small set of drawers to the left of the stove that appear long unopened. A door across the room leads elsewhere in the house. You can also return to the hallway.
+-Potion recipe
+-lighter
+-door to greenhouse
+
+Greenhouse
+Tinted glass panes surround you, held aloft by a spiderweb of metal framing. Unexpected rain plinks against the windows. 
+You don't remember seeing any dark clouds when you were outside. An inlaid stone path marks the perimeter of the room. 
+In the middle, there's a large mound of dirt, evenly disected by multiple wood stakes, some of which have fraying twine running between. 
+A few plants are suppored by the string, growing on seemingly unfazed by their lack of attention. There's a small wooden table at the far side of the room, leaning at a dangerous angle.
+You can look around, or you can go back into the kitchen.
+-Potion Plants
+-Trowel
+
+Backyard
+The clearing in which the house sits continues behind it for another 50 meters or so. The dry grass is trampled down near the door, marking a clear path as to where prior visitors had walked.
+Similar to when you first arrived, the lack of forest noise makes you uneasy. None of the trees dare move or whisper. The bizarre feeling reminds you of being on a stage set. 
+At the far side of the path sits a rounded stone marker, partially beneath the shade of a tree. You can't quite make out the markings from this distance, but you can tell they're there.
+The dirt around the stone is a different shade of brown, as if having been turned recently. 
+Nothing else out here catches your eye. Behind you is the door that leads back to the dining room.
+-Cat Grave (RIP Gerard)
+-Basement Keyring w/ Note about birthday
+
+
+Upstairs
+Study
+A vast mahogany desk sits dead center in the room. A table lamp rests on top, sitting next to a dull black typewriter and another cardboard box.
+On the far wall is a window, shrowded by dust caked curtains that could either be a deep maroon or dark brown. Through the glass you can see the front yard.
+There's your car, sitting empty and alone. On another wall rests hundreds of books, some leather bound and others wrapped in parchment.
+None of them you've heard of, and it's also likely none have been added to the collection in the last century. At least four different clocks perch in various places about the room.
+Every single one is stopped at the exact same time, 10:20.
+There are a few papers strewn across the floor which must've been knocked from the desk. From here, you can only return to the upstairs hallway.
+
+-Ritual Book
+-Note about Clocks
+
+Bedroom
+A large four poster bed takes up a majority of the room, complimented by two nightstands on each side of the headboard. A few items rest on the stands, but nothing catches your eye.
+There are no linens on the bed, so you can see the lumpy, misshapen mattress.
+The outer cover is stained an upsetting shade of yellow, and a few holes spill feathers onto the floor. Clearly, this piece had not yet been replaced by your mom. 
+On another wall is a wardrobe, taller than you and the same rich brown you've seen on furniture all across the house. One of the doors is partially open. 
+A clock hangs next to it, missing the glass that normally would cover the hands. It ticks ominously. From here, you can go back to the upstairs hallway.
+
+//
+Or step into the hidden room.
+-Clock
+-Boots
+-Hidden Room
+
+Hidden Room
+The space behind the wall is haunting. The only light is that which shines in from the bedroom. On the floor, there's a red chalk pentagram, covered with dust and long untouched.
+The walls and ceiling are all black, so dark as to steal the light away and even suck the air from your lungs. You're scared. In the middle of the circle rests a curled, tan piece of parchment.
+Nothing else exists in this claustrophobic space. You want to get out of here and back to the bedroom.
+
+
+Upstairs Bath
+The upstairs bathroom is the largest in the house, with a full length clawfoot tub that spans one wall. There's a mirror on the wall, so lusterless as to only show the faintest silhouettes.
+A metal tub sits beneath the mirror, resting on an unstable wood frame. It leans significantly to the left, it'd be best not to touch it.
+The tub is in a better state, with its faucet attached and dripping. Brown, clumpy fluid has built up around the drain, but it's still functional, as there hasn't been a great deal of accumulation.
+A toilet sits to the other side of the mirror, one of those old fashioned ones with a reservoir that sits nearly a meter above the basin. 
+Curling silvered pipes connect the two, but there seems to be nothing else keeping the reservoir aloft, and it sways ever so slightly. 
+The only place to go from here is back into the upstairs hallway.
+-Dirty Tub Water
+
+Upstairs Hall
+The upstairs hallway continues the hardwood flooring, the planks spanning radially away from the landing. On the wall in front of you is an old painting, framed by heavily engraved wood.
+The painting is of a cat, whose snow white fur still shines beneath the dust. It's eyes glint a proud and agressive orange, looking at the viewer with an unspoken challenge.
+You can't help but feel watched. Beneath it rests an etched metal plaque. It reads:
+Gerard, 1882 - 1887. 
+The second year looks like it was scratched on later without the use of a precision tool. You can feel the despair in the gesture, whomever had made the addition must've been upset.
+There are three doors leading off the hallway, one in front, one to the left, and one to the right. You can also go back downstairs.
+-cat painting
+
+Basement
+Rat Room
+The stairs leading down to the basement skreech loudly with each of your steps. The darkness surrounds you completely, the only thing that keeps you on track is a rickety railing to the right.
+When you reach the bottom of the steps, the first thing that hits you is an overwhelming stench of rot. It swirls in your nostrils and makes your eyes water.
+You have to resist the urge to vomit. The next thing you feel is an intense humidity. The surface of your skin feels wet and vile, as if the miasma of the room is permiating your pores.
+
+You can't see a thing
+\\
+With the lighter in hand, you venture forward a couple steps. You stumble back again in horror. The room is soaked in red, the walls dripping wet and hot.
+On the floor are heaping mounds of viscera, half eaten rodents spilling their insides into an unholy knot. Despite the carnage, it sounds like some are still alive. 
+Pained, tiny squeals reverberate through the small space, adding more to the sickening feeling inside you.
+Across the room, one of the mounds is moving grotesquely, as if it has coagulated into some greater kind of abomination.
+There's nothing you'd rather do than go back upstairs.
+-Omma
+-Acid floor
+
+Puzzles
+Basement Key
+-note in hidden room in bedroom
+1. Get Trowel (greenhouse)
+2. Dig up Gerard (backyard)
+3. Get keyring, note (backyard)
+4. Use key 82 (adoption year)
+
+Ritual
+1. Make potion (recipe kitchen, plants greenhouse)
+2. Get book (study)
+3. fix mirror (fragments downstairs bath, word upstairs bath)
+4. Get candles (dining room)
+5. Lighter (kitchen)
+
+Hidden Room
+1. Find note in study 
+2. Change clock in bedroom
+
+Rat Room
+1. Lighter from kitchen
+2. Boots from bedroom
+
+Inventory Items To Draw:
+Potion bottle (empty/full)
+A glass potion bottle, hand blown and not symmetrical.
+
+Potion Recipe (milkweed, nightshade, wormwood)
+
+Plants (wormwood, wolfsbane, nightshade, milkweed, catnip)
+
+Trowel
+A handheld gardening trowel, made to dig.
+
+Keyring
+A ring of keys, each of which is numbered. There's over 100.
+
+Lighter (zippo)/ *kitchen knife/ladle*
+An old fashioned metal cased lighter. It still works.
+A chef's knife from the kitchen. Not sharp, but not dull either.
+A wooden ladle. Could have served some superior stew, but not recently.
+
+Candles (half melted)
+A melted together conglomoration of candles, used but not burnt out.
+
+Ritual book (closed / pg. 231 with ritual instructions)
+Day log of exorcism (has the page for the book in the study) ("Saturday, September 17th, 1887, the new moon rises. I must gather my materials. 
+*scrawled * Book of Shadows 231)
+Boots/coat/scarf
+A pair of old leather boots, worn and broken in.
+A moth eaten coat covered in dust.
+A long scarf, riddled with holes from various insects.
+
+Mom's note about the clocks ("I keep changing the clocks, but they always stop at 10:20. They're such nice antiques, I'll need to call a repair person")
+Ebenezer Vermillion's note ("every time I go to the basement now, I think of the first year we were together etc etc")
+
+LOW PRIORITY
+clock
+Hatbox with cat skull
+Gravestone
+TBD - Map
+
+
+Item Pickups
+Bedroom
+//open
+Inside the cabinet, there are a few different articles, none of which are new. There's a scarf on a peg, a coat on a hangar, and boots resting on the bottom.
+
+//clock
+The clock that's mounted to this wall seems to be working. Or, at least, it isn't stuck like the rest of them.
+Do you want to change the time?
+
+Study
+//books
+There are so many different books here, from home gardening to naval history. You're not sure where to look.
+
+//papers
+A few papers have slid off of the desk and onto the floor. Most seem to be invoices, bids for certain repairs around the house. A bright yellow sticky note rests on top, with your mom's familiar handwriting.
+
+US Bath
+//faucet
+You turn on the faucet, leaving it running until the bottom of the tub is completely submerged in the dirty brown water. What flows from the tap doesn't seem to be getting any cleaner, so you shut it off again.
+As the water drains away, some of the grime seems to have congealed onto the tub. It's a series of letters. It says XLIII.
+
+DS Hall
+//cabinet
+You open the cabinet to find a large variety of anique glassware. These antique glasses and plates have been stacked in here for many years. One stands out. It must be a vase or something, but it reminds you of a potion bottle.
+
+DS Bath
+//cabinet
+Behind the doors of the cabinet, the furnishing is nearly empty. Spiderwebs hang this way and that, which must have served generations of arachnids well. On the bottom are a five broken pieces of glass.
+
+Kitchen
+//cooking utensils
+On the counter rests three items, laid out without any order. There's a knife, a ladle, and a lighter.
+
+//drawers
+The first and second drawer you open are empty but for dust. But the last contains a single, withered page.
+
+Greenhouse
+//plants
+There are five plants growing in the dirt, each accompanied by a small wooden nametag. The labels read: nightshade, milkweed, catnip, wormwood, and wolfsbane.
+
+//table
+Only one thing remains on the gardening table. A small hand trowel.
+
+Basement
+//mound
+You trudge through the sticky viscera that's accumulated on the floor. You focus every part of yourself just to get to the other side. When you do, the mound shifts again, shortly followed by a moan.
+Before you can think better of it, you push aside the rotting meat. What you find makes you stumble back. Beneath the corpses of numerous rats, your mom lays in a coma-like state. You grab her arms and pull her free of the slime.
+
+It takes a while for the ambulance to arrive after you carry her outside. But it finally comes, and with it one of the best phrases you've ever heard: "She's alive."
+A wave of relief washes over you, and with it a newfound determination to find out what the hell is going on. You turn, and with confident steps, go back inside. (to entry)
+
+Dining Room
+//candles
+In the middle of the table rests a few different candles, the wax all bleeding together around their bases. You can pick them up, but they're an unwieldy bunch and wouldn't be much use for light.
+
+Backyard
+//stone
+When you approach the stone, the word inscribed upon it becomes legible. It says Gerard. The dirt around the stone is soft, and if you had the right tool, you could dig it up.
+	Despite clawing at the dirt with your fingers, it doesn't give.
+	
+	Using the trowel, you lift away clods of dirt until you find what appears to be a hat box. It's old and the decorative ribbons are frayed. When you open it you find three things.
+	There's a small, folded note, a ring of keys, and an animal's skull.
